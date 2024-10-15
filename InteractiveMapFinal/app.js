@@ -1,23 +1,22 @@
 function initMap() {
-    const manhattanCoords = { lat: 40.7500, lng: -73.9800 }; // Center Manhattan
+    const nycCoords = { lat: 40.7128, lng: -74.0060 }; // Center NYC
 
-    // Updated Manhattan bounds (cutting at Castle Williams on Governors Island and Empty Sky Memorial)
-    const manhattanBounds = {
-        north: 40.8032,   // Upper boundary (beginning of Morningside Park)
-        south: 40.6913,   // Lower boundary (Castle Williams on Governors Island)
-        east: -73.935242, // Eastern boundary (Ricardo's Steakhouse near Harlem River)
-        west: -74.0346    // Western boundary (Empty Sky Memorial, New Jersey side)
+    // Update bounds to cover all of NYC
+    const nycBounds = {
+        north: 40.9176,   // Upper boundary (Bronx/Yonkers)
+        south: 40.4774,   // Lower boundary (Staten Island)
+        east: -73.7004,   // Eastern boundary (Queens)
+        west: -74.2591    // Western boundary (Hudson River near New Jersey)
     };
 
-    // Create the map and restrict panning to Manhattan bounds, set mapTypeId to 'terrain'
+    // Create the map and restrict panning to NYC bounds
     const map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 13,  // Adjust zoom level to better fit Manhattan
-        center: manhattanCoords,
-        //mapTypeId: 'terrain', // Set the base map view to Terrain
+        zoom: 11,  // Adjust zoom level to fit all of NYC
+        center: nycCoords,
         mapId: 'e003ed84c8a10c11',  // Your map ID
         restriction: {
-            latLngBounds: manhattanBounds,  // Restrict the map bounds to Manhattan
-            strictBounds: true              // Prevent panning outside the bounds
+            latLngBounds: nycBounds,  // Restrict the map bounds to all of NYC
+            strictBounds: true        // Prevent panning outside the bounds
         }
     });
 
