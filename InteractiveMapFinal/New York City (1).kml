@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>New York City</name>
+    <Style id="icon-1899-E65100-normal">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-E65100-highlight">
+      <IconStyle>
+        <color>ff0051e6</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-E65100">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-E65100-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-E65100-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-nodesc-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-nodesc-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark>
+      <name>Central Park</name>
+      <description>pedicab, caricatures, vendor cart prices, Zelle</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9655834,40.7825547,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Washington Square Park</name>
+      <description>monks, spas, chess https://slate.com/culture/2001/05/chess-hustlers.html </description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.997332,40.7308838,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Central Terminal</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9772269,40.752714,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Chinatown</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9970307,40.7157509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Penn Station</name>
+      <description>fare scam</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9941724,40.7511988,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Times Square</name>
+      <description>comedy show tickets, character photos, cds</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9855426,40.7579747,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Staten Island Ferry</name>
+      <description>Paying for tickets</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -74.0133104,40.7013332,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>John F. Kennedy International Airport</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.7797035,40.6446245,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Airtrain to JFK Airport</name>
+      <description>Giving away metro card to someone</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.7829526,40.6445943,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>statue of Liberty Boat</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9840311,40.7098777,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bryant Park</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9829529,40.7535367,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Weed World</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9899836,40.7522952,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Luna Park in Coney Island</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9785149,40.5752568,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Union Square</name>
+      <styleUrl>#icon-1899-FF5252-nodesc</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9910835,40.7358633,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Midtown Manhattan</name>
+      <description>Three-Card Monte</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9840195,40.7549309,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name><![CDATA[WeWork Office Space & Coworking]]></name>
+      <description>AirBnb Headquarters</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -74.0081217,40.7107509,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Brooklyn Bridge</name>
+      <description>cd scam</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9968643,40.7060855,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bushwick</name>
+      <description>Spanish lottery https://brooklyn.news12.com/brooklyn-residents-warned-about-trending-lotto-scam-in-bushwick</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9170604,40.6957755,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Madison Square Garden</name>
+      <description>parking garage fare</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9934387,40.7505045,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Rockefeller Center</name>
+      <description>garage parking flags</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9786736,40.7587402,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Empire State Building</name>
+      <description>not a scam but expensive, other locations with better views http://ny-guide.com/nyc-scams-and-tourist-traps-to-avoid-read-before-you-visit/</description>
+      <styleUrl>#icon-1899-FF5252</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9856644,40.7484405,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Little Italy</name>
+      <description>not scam but ripoff</description>
+      <styleUrl>#icon-1899-E65100</styleUrl>
+      <Point>
+        <coordinates>
+          -73.9973273,40.7191413,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

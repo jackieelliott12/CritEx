@@ -1,0 +1,65 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;  /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    text-align: center;  /* Centers the content inside the header */
+    padding: 20px 0;
+    background-color: #61f586;  /* Use park color for header background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+}
+
+/* h1 styling */
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;  /* Sets the text color */
+}
+
+/* Button container styling */
+.button-container {
+    text-align: center;  /* Center the button on the page */
+    margin: 20px 0;  /* Add some space between the button and the map */
+}
+
+/* Button styling */
+.map-button {
+    background-color: #6bd7f5;  /* Water color for the button */
+    color: white;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.map-button:hover {
+    background-color: #edbcf1;  /* Majority map color on hover */
+}
+
+/* Map container styling */
+#map-container {
+    position: relative;
+    width: 80%;  /* Keep it at 80% width */
+    margin: 30px auto;  /* Add margin at top and center the map container */
+    border: 5px solid #6bd7f5;  /* Water color for border around map */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Add shadow for depth */
+}
+
+/* Styling the map div */
+#map {
+    height: 80vh; /* Full viewport height for the map */
+    width: 100%;  /* Full width of the map container */
+    background-color: #edbcf1;  /* Fallback color for the map background */
+}
+
+#popup-content {
+    font-size: 16px;
+}

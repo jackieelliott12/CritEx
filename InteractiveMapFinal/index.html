@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Guide to Scams in NYC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>The Guide to Scams in NYC</h1>
+    </header>
+
+    <!-- Button to link to the Google Map -->
+    <div class="button-container">
+        <a href="https://www.google.com/maps/d/u/0/edit?mid=1iNVlmOb5P73fkvYSO-Ne6miJgIwOOQo&usp=sharing" target="_blank">
+            <button class="map-button">View Full Map on Google</button>
+        </a>
+    </div>
+
+    <!-- Map container for your embedded map -->
+    <div id="map-container">
+        <div id="map"></div> <!-- Google Maps div -->
+    </div>
+
+    <script src="app.js"></script>
+    <script async defer 
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYWowewNj4x2suSGJmylel5ZCj1CwzgTI&callback=initMap&libraries=places,marker&loading=async">
+    </script>
+</body>
+</html>
